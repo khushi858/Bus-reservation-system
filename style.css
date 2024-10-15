@@ -1,15 +1,17 @@
 body {
-    background-color: dark grey;
+    background-color: ;
 }
 
 .navbar {
-    background-color: #007bff;
+    background-color: dark grey;
 }
 
 .navbar-brand, .nav-link {
     color: white !important;
 }
-
+.container {
+    background-color:grey;
+}
 h1, h2 {
     color: #343a40;
 }
