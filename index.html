@@ -8,28 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-center mt-5">Bus Reservation System</h1>
-        <form id="reservation-form" class="mt-4">
-            <div class="form-group">
-                <label for="departure">Departure City:</label>
-                <input type="text" class="form-control" id="departure" required>
-            </div>
-            <div class="form-group">
-                <label for="destination">Destination City:</label>
-                <input type="text" class="form-control" id="destination" required>
-            </div>
-            <div class="form-group">
-                <label for="date">Travel Date:</label>
-                <input type="date" class="form-control" id="date" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Check Availability</button>
-        </form>
-        <div id="result" class="mt-4"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Bus Reservation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="booking.html">Booking</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-5 text-center">
+        <h1>Welcome to the Bus Reservation System</h1>
+        <img src="bus.jpg" alt="Bus" class="img-fluid mt-4">
+        <p class="lead mt-3">Book your tickets easily and conveniently.</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
